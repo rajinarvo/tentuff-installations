@@ -1,0 +1,16 @@
+---
+title: "Prevent"
+preHeading1: "PRE-VENT"
+preHeading2: "Fall Protection System"
+preHeading3: "While we highly recommend fixed Prevent systems to all your openable windows, we do have other options which can be keyed*."
+prePara1: "Pre-vent systems specifically responds to the need for fall prevention from high rise dwellings. Our poly Tensile Stainless mesh held by our specially designed Alumium frames (colour coated to your requirement) is built & tested to withstand high impacts from an accidental fall."
+prePara2: " While we highly recommend fixed Prevent systems to all your openable windows, we do have other options which can be keyed*."
+prePara3: "Fitted to windows, Pre-vent eliminates the requirement of grills** & Mosquito/Fly Screens."
+prePara4: "Call our Sales Team on "
+phone: "1800-572-3613." 
+prePara4a: "Or visit our Experience Centre"
+address: " #2968, 4th cross, 12th Main, Hal 2nd Stage, Indiranagar,Bengaluru-560038"
+prePara4b: "  to find out more."
+prePara5: "*A keyed Prevent system will only operate as a fall Prevention system when it is kept locked & will be installed only after the user signs a document stating his understanding."
+prePara6: "**Recommended for High rises where there is no access for burglary or break- ins. If Burglary/Break-ins is a concern, install our Tentuff Systems (tentuff.com)"
+---

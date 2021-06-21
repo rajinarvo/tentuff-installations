@@ -1,0 +1,48 @@
+{{ with .Site.Params.ourProducts}}
+{{ if .enable }}
+{{ "<!-- Site Connect Digitize -->" | safeHTML }}
+<div class= "bg-custom-gray">
+<div class="container text-center pt-8 pb-16">
+    <h2 class="">{{.productsheading}}</h2>
+    
+    <p class="pb-9">{{.productspara}}</p>
+       
+    <div class="flex flex-col gap-y-8 justify-center md:flex-row gap-x-10 mb-8">
+        <div class="relative place-self-center  w-full h-auto md:w-72 md:h-36 md:mb-8">
+            <a href="/securitydoors/"> <img src="/images/home-page/TENTUFF-FRENCH-SECURITY-DOORS-CLOSEUP-LR.jpg"
+                class="foto w-full h-full object-fit shadow-md"
+                alt="description" /></a>
+                <h6 class="pt-2">Security Doors</h6>
+    <a href="/securitydoors/" class="">More Info.. </a>
+        </div>
+        <div class=" relative place-self-center w-full h-auto md:w-72 md:h-36  md:mb-8 " >
+            <a href="/securitywindows/">   <img src="/images/home-page/TENTUFF-Security-windows-homepg.png"
+                class="foto w-full h-full object-fit shadow-md "
+                alt="description" /></a>
+                <h6 class="pt-2">Security Windows</h6>
+    <a href="/securitywindows/" class="">More Info.. </a>
+        </div>
+    
+    </div>
+    <div class="flex flex-col gap-y-8 justify-center md:flex-row gap-x-10  md:pt-5  md:mb-8">
+<div class=" relative  place-self-center w-full h-auto md:w-72 md:h-36  md:mb-8 " >
+    <a href="/patio/"> <img src="/images/home-page/TENTUFF-PATIO-COVER.jpg"
+                class="foto w-full h-full object-fit shadow-md"
+                alt="description" /></a>
+                <h6 class="pt-2"> Patio Enclosure</h6>
+    <a href="/patio/" class="">More Info.. </a>
+        </div>
+
+        <div class=" relative relative place-self-center w-full h-auto md:w-72 md:h-36  md:mb-8" >
+            <a href="/escape/">   <img src="/images/home-page/TENTUFF-Escape-windows-homepg.png"
+                class="foto w-full h-full object-fit shadow-md"
+                alt="description" /></a> 
+                <h6 class="pt-2">Escape Enclosure</h6>
+    <a href="/escape/" class="">More Info.. </a>
+        </div>
+    </div> 
+</div>
+</div>
+{{ "<!-- Site Hero End -->" | safeHTML }}
+{{ end }}
+{{ end }}

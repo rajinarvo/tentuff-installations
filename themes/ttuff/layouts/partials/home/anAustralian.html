@@ -1,0 +1,27 @@
+{{ with .Site.Params.anAustralian}}
+{{ if .enable }}
+{{ "<!-- Site Connect Digitize -->" | safeHTML }}
+<div class="bg-custom-nav">
+<div class="container text-center ">
+    <h2 class=" mt-10 ">{{.australianheading}}</h2>
+     
+    <p class="">{{.australianpara}}</p>
+       
+       <div>
+         <a href="/contact/"><button
+            class="btn text-white hover:text-gray-600 m-4 rounded px-5 py-2 outline-none focus"
+          >
+            Contact for a Quote >
+          </button></a>
+        <div class="mt-8 flex w-full h-full justify-center">
+           <iframe 
+            src="https://www.youtube.com/embed/HQo70opmoZQ?enablejsapi=1&amp;rel=0" width="646 px"
+            height="315" frameborder="0"></iframe>
+      
+        
+       </div>
+</div>
+</div>
+{{ "<!-- Site Hero End -->" | safeHTML }}
+{{ end }} 
+{{ end }}

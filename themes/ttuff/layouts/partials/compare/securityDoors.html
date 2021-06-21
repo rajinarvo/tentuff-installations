@@ -1,0 +1,42 @@
+{{ with .Site.Params.securityDoors}}
+{{ if .enable }}
+{{ "<!-- Site Connect Digitize -->" | safeHTML }}
+<div class="bg-custom-gray mt-4  pt-8 pb-10">
+    <div class="container  mt-4 ">
+    <h2 class=" mb-8 text-center">{{.securityTitle}}</h2>
+    <div class= "bg-custom-gray">
+        <div class="md:ml-0 ">
+            <div class="flex flex-col gap-y-8 justify-center md:flex-row gap-x-10 mb-8">
+                      <div class="relative place-self-center  mb-8" style="width:300px; height:200px">
+                          <img src="/images/landingpage/landingpageimg-1.jpg"
+                              class=" foto object-fit rounded w-full h-full  shadow-md"
+                              alt="description" />
+                              
+                   </div>
+                      <div class=" relative place-self-center  mb-8" style="width:300px; height:200px">
+                          <img src="/images/landingpage/landingpageimg2.jpg"
+                              class=" foto object-fit rounded w-full h-full  shadow-md "
+                              alt="description" />
+                              
+                   </div>
+                   <div class=" relative place-self-center mb-8"style="width:300px; height:200px">
+                          <img src="/images/landingpage/landingpageimg-3.jpg"
+                              class="object-fit rounded w-full h-full  shadow-md"
+                              alt="description" />
+                    </div>
+      
+                      
+                  </div> 
+              </div>
+      </div>
+
+    </div>
+
+    <div class="container"> <p class="text-justify">{{.securityPara1}}</p></div>
+ 
+</div>
+  
+  
+{{ "<!-- Site Hero End -->" | safeHTML }}
+{{ end }}
+{{ end }}

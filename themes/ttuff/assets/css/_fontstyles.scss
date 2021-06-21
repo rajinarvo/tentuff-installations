@@ -1,0 +1,188 @@
+$body-color: #fafafa;
+$primary-color: #FAAD26;
+$secondary-color: #F7F7F7;
+$tertiary-color:#2b2929;
+$text-color-default:#000D24;
+
+
+body {
+  font-family: 'Acumin Pro', sans-serif;
+  font-size: 16px;
+  color: $text-color-default;
+  line-height: 1.6;
+  font-weight: 400;
+  background-color: $body-color;
+}
+
+h1,
+h2,
+
+h4,
+h5
+ {
+  font-family: Roboto;
+}
+
+ul{
+  font-size: 14px;
+  color: $text-color-default;
+  font-family: Montserrat; 
+   
+}
+p {
+  font-size: .85rem;
+  line-height: 1.6;
+  font-weight: 300;
+  color: $text-color-default;
+  font-family: 'Acumin Pro', sans-serif;
+}
+@media (min-width:767px) {
+  p {
+    font-size: 1rem;
+    line-height: 1.6;
+    font-weight: 300;
+    color: $text-color-default;
+    font-family: 'Acumin Pro', sans-serif;
+  }
+}
+h1 {
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 70px;
+  letter-spacing: 0em;
+}
+
+h2 {
+  //styleName: Title 2;
+  font-size: 1.5rem;
+ // font-style: normal;
+  line-height:1;
+  font-weight: 400;
+  margin-bottom:.6rem;
+  font-family: 'Acumin Pro', sans-serif;
+ 
+  }
+  @media (min-width:767px) {
+    h2 {
+      font-size: 2rem;
+      // font-style: normal;
+       line-height:1;
+       font-weight: 400;
+       margin-bottom:.6rem;
+       font-family: 'Acumin Pro', sans-serif;
+    }
+   }
+
+h3 {
+  font-family: 'Acumin Pro', sans-serif;
+  font-size: 1.1rem;
+  line-height:1;
+  margin-bottom: .6rem;
+  font-weight: 300;
+  color:$tertiary-color;
+}
+h4{
+  font-size: 1.1rem;
+  color:$tertiary-color;
+  line-height: 2;
+  font-weight: 600;
+  margin-bottom: .6rem;
+  font-family: 'Acumin Pro', sans-serif;
+}
+h6 {
+  font-family: 'Acumin Pro', sans-serif;
+  font-size: 1.2rem;
+  line-height:1;
+  margin-bottom: .6rem;
+  font-weight: 300;
+  color:$tertiary-color;
+}
+
+a{
+   font-size: 14px;
+  color: $primary-color;
+  font-family: 'Acumin Pro', sans-serif; 
+}
+
+li{
+  font-size: 14px;
+  color:$tertiary-color;
+  line-height: 22px;
+  font-family: 'Acumin Pro', sans-serif;
+  padding-bottom: 10px; 
+}
+@media (min-width:767px) {
+  li{
+    font-size: 16px;
+    color:$tertiary-color;
+    line-height: 22px;
+    font-family: 'Acumin Pro', sans-serif;
+    padding-bottom: 10px;
+    padding-top: 0px;
+  }
+  
+}
+
+h5{
+  font-size: 1.1rem;
+  font-style: normal;
+  color:$tertiary-color;
+  //line-height: 38px;
+  font-weight: 300; 
+}
+nav a, .product{
+  font-size:.65rem;
+  font-family: Roboto;
+  transition: all 0.2s linear;
+  //font-weight:500;
+  letter-spacing: -.005em;
+  }
+  @media (min-width:767px) {
+  nav a, .product{
+    font-size:.85rem;
+  font-family: Roboto;
+  transition: all 0.2s linear;
+  //font-weight:500;
+  letter-spacing: -.005em;
+  }  
+  }
+
+  .top-bar a{
+    letter-spacing: -.005em;
+    font-size:.85rem;
+    font-weight: 500;
+    transition: all 0.2s linear;
+    font-family: 'Acumin Pro', sans-serif;
+  } 
+  @media (min-width:767px) {
+    .top-bar a{
+      letter-spacing: -.005em;
+    font-size:1.1rem;
+    font-weight: 500;
+    transition: all 0.2s linear;
+    font-family: 'Acumin Pro', sans-serif;
+    }
+  }
+.top-bar i{
+
+  color: #FAAD26;
+  }
+  .fa-phone,.fa-whatsapp{
+   font-size:.9rem;
+  }
+  @media (min-width:767px) {
+    .fa-phone,.fa-whatsapp{
+      font-size:1.5rem;
+     
+     }
+  }
+.phone{
+ color: #3A3A3C;
+}
+.btn{
+  background-image: linear-gradient(140deg, #FFBC48 0%, #FE7E1F 100%);
+}
+.bi-fold-bg{
+  background-image: radial-gradient( circle 907px at 3.4% 19.8%,  #bda68f40 0%, #e9d5c140 97.4% );
+}
