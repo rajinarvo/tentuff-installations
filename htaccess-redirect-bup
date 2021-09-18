@@ -1,0 +1,18 @@
+
+#For Migration Redirecting to new urls
+RedirectMatch 301 ^/security-doors/$ /security-doors.html
+RedirectMatch 301 ^/security-windows/$ /security-windows.html
+RedirectMatch 301 ^/escape-windows/ /escape-windows.html
+RedirectMatch 301 ^/security-doors/tentuff-assurance/$ /tentuff-assurance.html
+RedirectMatch 301 ^/security-doors/testing/$ /security-doors-testing.html
+RedirectMatch 301 ^/warranty-care/ /warranty-and-care.html
+RedirectMatch 301 ^/contact/ /contact.html
+RedirectMatch 301 ^/thank-you/ /thank-you.html
+RedirectMatch 301 ^/security-doors/sliding-doors/$ /sliding-security-doors.html
+RedirectMatch 301 ^/security-doors/hinged-doors/$ /hinged-security-doors.html
+RedirectMatch 301 ^/security-doors/french-doors/$ /french-security-doors.html
+RedirectMatch 301 ^/security-doors/bi-fold-doors/$ /bi-fold-security-doors.html
+RedirectMatch 301 ^/security-windows/hinged-security-windows/$ /hinged-security-windows.html
+RedirectMatch 301 ^/security-windows/fixed-security-windows/$ /fixed-security-windows.html
+RedirectMatch 301 ^/patio-enclosure/ /patio-enclosure.html
+RedirectMatch 301 ^/gallery/ /gallery.html

@@ -1,4 +1,11 @@
 <head>
+  <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-TSZ72Q6');</script>
+  <!-- End Google Tag Manager -->
   <meta charset="utf-8" />
   <title>{{ .Title }}</title>
 
@@ -7,6 +14,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
   {{ with .Site.Params.author }}
   <meta name="author" content="{{ . }}">
+  <!-- Meta Tags -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="title" content="TENTUFF | Security Doors & Windows">
+  <meta name="description"
+    content="An Australian innovation, Security Doors and Windows to protect your loved. Secure than Grill Door, Stylish. Blocks bugs and burglars. Call 1800-572-3613" />
+
+  <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="TENTUFF | Security Doors & Windows" />
+  <meta property="og:description"
+    content="An Australian innovation, Security Doors and Windows to protect your loved. Secure than Grill Door, Stylish. Blocks bugs and burglars. Call 1800-572-3613" />
+  <meta property="og:url" content="https://tentuff.com" />
+  <meta property="og:site_name" content="TENTUFF" />
+  <meta property="og:updated_time" content="2020-02-22T10:13:32+00:00" />
+  <meta property="og:image" content="https://tentuff.com/assets/images/slider/TENTUFF-Security-Door.jpg" />
+  <meta property="og:image:secure_url" content="https://tentuff.com/assets/images/slider/TENTUFF-Security-Door.jpg" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:description"
+    content="
+  An Australian innovation, Security Doors and Windows to protect your loved. Secure than Grill Door, Stylish. Blocks bugs and burglars. Call 1800-572-3613" />
+  <meta name="twitter:title" content="TENTUFF | Security Doors & Windows" />
+  <meta name="twitter:image" content="https://tentuff.com/assets/images/slider/TENTUFF-Security-Door.jpg" />
+  <meta name="google-site-verification" content="UA-92426408-10" />
+  <!-- Meta Tags ---- ----------------- -- - - ---------- -->
   {{ end }}
   {{ hugo.Generator }}
   {{ $styles := resources.Get "css/styles.scss" | toCSS | postCSS (dict "config" "./assets/css/postcss.config.js") }}
@@ -14,12 +47,13 @@
     <link rel="stylesheet" href="{{ $styles.RelPermalink }}">
   {{ else }}
     {{ $styles := $styles | minify | fingerprint | resources.PostProcess }}
-    <link rel="stylesheet" href="/{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}">
+    <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}">
   {{ end }}
   <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.js" defer></script>
   <link rel="shortcut icon" href="{{"/images/favicon/android-icon-96x96.png" | absURL }}" type="image/x-icon" />
-  <link rel="icon" href="{{ " /images/favicon/android-icon-96x96.png" | absURL }}" type="image/x-icon" />
+  <link rel="icon" href="{{ "/images/favicon/android-icon-96x96.png" | absURL }}" type="image/x-icon" />
   <link href="http://fonts.cdnfonts.com/css/acumin-pro" rel="stylesheet">
+
 </head>
 
 
